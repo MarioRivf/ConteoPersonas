@@ -1,0 +1,38 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos temporales / cache
+__pycache__/
+*.py[cod]
+*.log
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de ejecución
+*.exe
+*.out
+
+# Modelos entrenados
+*.pt
+*.h5
+
+# Archivos sensibles (si llegas a usarlos)
+*.env
+.env
+
+# Archivos de bases de datos temporales
+*.sqlite3
+
+#Archivos
+camera_stream.py
+yolov8n.pt
